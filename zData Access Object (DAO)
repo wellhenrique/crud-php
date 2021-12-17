@@ -1,0 +1,26 @@
+CLASSE USUARIO
+-id
+-nome
+-email
+
+-getid
+-setid
+
+-getnome
+-setnome
+
+-getemail
+-setemail
+
+CLASSE USUARIODAO
+-add(Usuario)
+
+passo 1 para add usuario novo
+-criar a classe do novo usuario.
+
+$usuario = new Usuario();/
+$usuario->setNome('fulano');
+$usuario->setEmail('fulano@gmail.com');
+
+
+$usuarioDAO->add($usuario);
